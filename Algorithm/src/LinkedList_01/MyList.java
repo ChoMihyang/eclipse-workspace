@@ -48,7 +48,7 @@ public class MyList {
 
 		// 임시 노드 생성
 		Node temp = head.nextNode;
-		
+
 		// tail 노드 앞까지 순회하며 해당 객체의 평균 값 저장
 		while(temp != tail) {
 			sumOfAvg	+= temp.value.getAvg();
